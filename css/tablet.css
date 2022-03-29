@@ -1,0 +1,19 @@
+.card {
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+}
+.card__container1,
+.card__container2,
+.card__container3 {
+    height: 450px;
+}
+.card__container1__button {
+    margin-top: 60px;
+}
+.card__container1 {
+    border-radius: 10px 0 0 10px;
+}
+.card__container3 {
+    border-radius: 0 10px 10px 0;
+}
